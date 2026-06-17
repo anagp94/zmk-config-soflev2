@@ -53,6 +53,13 @@
             bindings = <&kp F8>;
             label = "M4";
         };
+
+        m5: m5 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp A &kp G &kp O &kp M &kp E &kp Z &kp P &kp E &kp R &kp RA(N2) &kp S &kp I &kp R &kp T &kp DOT &kp C &kp O &kp M>;
+            label = "M5";
+        };
     };
 
     combos {
@@ -100,7 +107,7 @@
             display-name = "raise";
 
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3   &bt BT_SEL 4                    &m1        &m3       &trans    &trans     &m2        &trans
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3   &bt BT_SEL 4                    &m1        &m3       &trans    &m5        &m2        &trans
 &trans      &kp INS       &kp PSCRN     &kp K_CMENU   &trans         &trans                          &kp PG_UP  &trans    &kp UP    &trans     &kp N0     &trans
 &trans      &kp LALT      &kp LCTRL     &kp LSHFT     &trans         &kp CLCK                        &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &kp DEL    &kp BSPC
 &trans      &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(LS(V))  &trans        &trans    &trans  &trans     &trans    &trans    &trans     &kp SLASH  &trans
