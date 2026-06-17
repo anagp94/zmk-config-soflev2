@@ -36,7 +36,7 @@
         m2: m2 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(S) &kp I &kp N &kp R &kp E &kp M &kp E &kp D &kp I &kp O &kp N2 &kp N6 &kp RA(N2) &kp LS(MINUS)>;
+            bindings = <&kp LS(S) &kp I &kp N &kp R &kp E &kp M &kp E &kp D &kp I &kp O &kp N2 &kp N6 &kp RA(N2) &kp LS(FSLH)>;
             label = "M2";
         };
 
